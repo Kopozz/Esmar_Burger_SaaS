@@ -5,3 +5,6 @@ database/*.db
 .vscode/
 .idea/
 .gemini/
+
+# Presentation Guide (local only)
+guia_exposicion.md
