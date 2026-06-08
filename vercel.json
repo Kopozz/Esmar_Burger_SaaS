@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "functions": {
+    "**/*.php": {
+      "runtime": "vercel-php@0.8.0"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(css|database|includes)/(.*)",
+      "dest": "/$1/$2"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
